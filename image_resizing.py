@@ -5,7 +5,7 @@ basewidth = 500
 
 numberOfImages = input()
 i=1
-while (i<=24): 
+while (i<=numberOfImages): 
     con = "J" + str(i)
     img = Image.open(con + '.jpg')
     wpercent = (basewidth / float(img.size[0]))
